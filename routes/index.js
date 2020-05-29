@@ -12,5 +12,4 @@ router.get('/private', routeGuard, (req, res, next) => {
   res.render('private');
 });
 
-
 module.exports = router;
