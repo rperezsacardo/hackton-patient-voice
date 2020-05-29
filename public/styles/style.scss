@@ -241,13 +241,18 @@ textarea {
 }
 
 #pain-scale-form {
-  margin: 0em 45%;
-  input[type='radio'] {
-    margin: 10%;
-  }
-
-  flex-direction: column;
-  div {
-    flex-direction: row;
-  }
+  flex-direction: row;
+  margin: 1em;
+}
+.scale-button {
+  background-color: #3d8b9b;
+  border-radius: 30px;
+  border: none;
+  font-size: larger;
+  width: 5em;
+  margin: 1em;
+  color: black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }

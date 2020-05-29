@@ -189,11 +189,19 @@ textarea {
   justify-content: center; }
 
 #pain-scale-form {
-  margin: 0em 45%;
-  flex-direction: column; }
-  #pain-scale-form input[type='radio'] {
-    margin: 10%; }
-  #pain-scale-form div {
-    flex-direction: row; }
+  flex-direction: row;
+  margin: 1em; }
+
+.scale-button {
+  background-color: #3d8b9b;
+  border-radius: 30px;
+  border: none;
+  font-size: larger;
+  width: 5em;
+  margin: 1em;
+  color: black;
+  align-items: center;
+  display: flex;
+  justify-content: center; }
 
 /*# sourceMappingURL=style.css.map */
