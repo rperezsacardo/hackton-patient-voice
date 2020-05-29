@@ -2,7 +2,7 @@
 
 const { Router } = require('express');
 
-const bcryptjs = require('bcryptjs');
+const bcryptjs = require('bcryptjs'); // check
 const User = require('./../models/user');
 
 const emergencyRouter = new Router();
