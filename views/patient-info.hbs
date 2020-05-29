@@ -1,15 +1,24 @@
-<section>
+<section class="patient-profile">
 
     <header>
-        <h1> {{name}} - {{pathology}} </h1>
+        <div class="patient-picture">
+            <img  src="/images/PROFILE.svg" alt={{image}}/>
+        </div>
+        <div class="patient-info">
+            <h1> Mr. John Wayne <br/> Covid-19 </h1>
+        </div>
     </header>
     <section>
-        <button class = 'rectangleButton' onclick = 'funcion1()' id = 'medicalRec'>
-            <h4>Medical Record</h4>
-        </button>
-        <button class = 'rectangleButton' onclick = 'funcion2()' id = 'medicalEval'>
-            <h4>New Medical Evaluation</h4>
-        </button>
+        <a href="">
+            <button class = 'rectangleButton' id = 'medicalRec'>
+                <h3>Medical Record</h3>
+            </button>
+        </a>
+        <a href="/appointment/patient/new/parameters">
+            <button class = 'rectangleButton' id = 'medicalEval'>
+                <h3>New Medical Evaluation</h3>
+            </button>
+        </a>
     </section>
 
 </section>

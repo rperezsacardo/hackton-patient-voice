@@ -12,6 +12,9 @@ const schema = new mongoose.Schema({
     required: true,
     trim: true
   },
+  image: {
+    type: String,
+  },
   passwordHash: {
     type: String
   }

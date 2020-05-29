@@ -2,7 +2,8 @@
   box-sizing: border-box; }
 
 body {
-  max-width: 52em;
+  max-width: 90%;
+  max-height: 90%;
   padding: 0 1em;
   margin: 0 auto;
   font-family: sans-serif;
@@ -61,5 +62,138 @@ button,
 textarea {
   min-height: 8em;
   resize: vertical; }
+
+.outerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh; }
+
+.leftWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .leftWrapper img {
+    width: 5em;
+    align-items: center; }
+  .leftWrapper a {
+    width: 40em;
+    margin: 3em;
+    background-color: #3d8b9b;
+    padding: 5em;
+    border-radius: 30px;
+    margin: 1em;
+    font-weight: bolder; }
+
+.rightWrapper a {
+  background-color: #e5df6f;
+  width: 2em;
+  padding: 5em;
+  border-radius: 50%; }
+
+.rightWrapper img {
+  max-width: 5em; }
+
+.ImgRectangleButton {
+  background-color: #b3b0b0;
+  border: 1px solidlightgrey;
+  width: 20%;
+  color: lightgrey; }
+
+.sign-in-form {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .sign-in-form input {
+    background-color: white;
+    border: 1px solid #75777f;
+    width: 40em; }
+  .sign-in-form button {
+    background-color: #3d8b9b;
+    border-radius: 30px;
+    border: none;
+    font-size: larger;
+    width: 10em;
+    margin: 1em;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center; }
+
+.patient-profile {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .patient-profile header {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2em; }
+    .patient-profile header .patient-picture {
+      padding: 4em; }
+    .patient-profile header img {
+      max-width: 10em; }
+    .patient-profile header .patient-info {
+      padding: 1em; }
+    .patient-profile header div {
+      align-items: center; }
+    .patient-profile header h1 {
+      text-align: left; }
+  .patient-profile section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+.rectangleButton {
+  background-color: #3d8b9b;
+  border-radius: 30px;
+  border: none;
+  font-size: larger;
+  width: 35em;
+  padding: 2em;
+  margin: 1em;
+  color: black;
+  align-items: center;
+  display: flex;
+  justify-content: center; }
+
+.footerImg {
+  position: absolute;
+  bottom: 0;
+  right: 1em; }
+
+.align-all-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.button-align-center {
+  background-color: #3d8b9b;
+  border-radius: 30px;
+  border: none;
+  font-size: larger;
+  width: 10em;
+  margin: 1em;
+  color: black;
+  align-items: center;
+  display: flex;
+  justify-content: center; }
+
+#pain-scale-form {
+  margin: 0em 45%;
+  flex-direction: column; }
+  #pain-scale-form input[type='radio'] {
+    margin: 10%; }
+  #pain-scale-form div {
+    flex-direction: row; }
 
 /*# sourceMappingURL=style.css.map */
